@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 # RSpec test unit
 gem 'rspec-rails'
 
+gem "react-rails"
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
