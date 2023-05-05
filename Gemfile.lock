@@ -84,6 +84,8 @@ GEM
     erubi (1.12.0)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.14.0)
+      faraday (>= 0.7.4, < 1.0)
     ffi (1.15.5)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -250,6 +252,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   faraday (~> 0.9.2)
+  faraday_middleware
   jbuilder (~> 2.7)
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
