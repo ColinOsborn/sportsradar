@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 # RSpec test unit
 gem 'rspec-rails'
+# faraday gem for http requests
+gem 'faraday', '~> 0.9.2'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -45,6 +47,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'webmock'
+  gem 'vcr'
   gem 'simplecov', require: false, group: :test
 end
 
