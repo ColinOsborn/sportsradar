@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.7'
 # RSpec test unit
 gem 'rspec-rails'
 # faraday gem for http requests
-gem 'faraday', '~> 0.9.2'
+gem 'faraday'
 gem 'faraday_middleware'
 
 # Use Active Storage variant
