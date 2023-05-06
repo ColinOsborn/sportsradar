@@ -1,13 +1,11 @@
 # frozen_string_literal: true
-require 'faraday'
-require 'faraday/retry'
 
 class NhlService
 
   def initialize
-    @connection = Faraday.new('https://statsapi.web.nhl.com',
-      params = nil, 
-      headers = nil
+    @connection = Faraday.new(
+      url: 'https://statsapi.web.nhl.com',
+      headers: {'Content-Type' => 'application/json'}
     )
   end
 
@@ -47,8 +45,6 @@ class NhlService
   end
 
   def parse(response)
-    JSON.parse(response.body)
-    # consider OpenStruct
-    # (response.body, object_class: OpenStruct)
+    JSON.parse(response.body, object_class: OpenStruct)
   end
 end

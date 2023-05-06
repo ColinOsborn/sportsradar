@@ -27,6 +27,8 @@ gem 'rspec-rails'
 gem 'faraday'
 gem 'faraday_middleware'
 
+gem "react-rails"
+gem 'pry'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

@@ -1,6 +1,66 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/colinosborn/codebase/sportsradar/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/colinosborn/codebase/sportsradar/app/services/nhl_service.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/colinosborn/codebase/sportsradar/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
@@ -22,14 +82,6 @@
         }
       },
       "/Users/colinosborn/codebase/sportsradar/app/controllers/application_controller.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/colinosborn/codebase/sportsradar/app/helpers/application_helper.rb": {
         "lines": [
           0,
           0
@@ -68,68 +120,8 @@
         ],
         "branches": {
         }
-      },
-      "/Users/colinosborn/codebase/sportsradar/app/services/nhl_service.rb": {
-        "lines": [
-          null,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1683326057
+    "timestamp": 1683331343
   }
 }
